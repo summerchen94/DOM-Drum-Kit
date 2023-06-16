@@ -1,0 +1,73 @@
+body {
+  text-align: center;
+  background-color: #efeeee;
+  color: rgb(53, 52, 52);
+}
+
+#title {
+  padding: 3% 15%;
+  font: 800 3.5rem Arial;
+}
+
+.set {
+  padding: 5% 10%;
+}
+
+.drum {
+  width: 100px;
+  height: 100px;
+  margin: 1%;
+  font: 700 3rem Arial;
+  color: rgb(0, 0, 0);
+  border-radius: 20px;
+  box-shadow: 18px 18px 30px rgba(0, 0, 0, 0.2), -18px -18px 30px #fff;
+  border: 0px;
+  text-align: center;
+  transition: all 0.2s ease-out;
+}
+
+.w,
+.a {
+  background-image: url(bass-drum.png);
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.s,
+.d {
+  background-image: url(drm.png);
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.j {
+  background-image: url(drum2.png);
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.k {
+  background-image: url(hi-hat.png);
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.l {
+  background-image: url(drum1.png);
+  background-size: 80px;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+footer {
+  margin-top: 15%;
+}
+
+.press {
+  box-shadow: 0 0 0 rgba(0, 0, 0, 0.2), 0 0 0 rgba(255, 255, 255, 0.8),
+    inset 18px 18px 30px rgba(0, 0, 0, 0.1), inset -18px -18px 30px #fff;
+  background-size: 70px;
+}
